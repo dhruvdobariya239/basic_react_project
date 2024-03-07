@@ -1,0 +1,71 @@
+#root {
+  width: 90%;
+  margin-left:3%;
+  margin-right: 5%;
+  margin-top: 5%;
+  padding: 2rem;
+  text-align: center;
+  background:#3C2A21;
+  color: white;
+}
+.continer{
+  width: 100%;
+  background-color:#D5CEA3;
+  border-radius: 5px ;
+  padding: 5px;
+
+
+}
+.input{
+  padding: 5px;
+
+}
+ #copy_btn{
+  background:#E5E5CB;
+  margin-left: 5px;
+  cursor: pointer;
+  border-radius: 3px;
+ }
+ 
+ #copy_btn:hover{
+  background: #c6c6ad;
+ }
+
+ .dependency {
+  display: flex;
+  color: black;
+  justify-content: center;
+ }
+
+.dependency > div {
+  
+  margin: 2px;
+  padding: 10px;
+  
+}
+.dependency 
+.dependency input{
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .input {
+    margin-bottom: 20px;
+  }
+
+  .dependency {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .dependency div {
+    margin-bottom: 10px;
+  }
+}
